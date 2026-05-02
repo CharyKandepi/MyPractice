@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MyPractice.StaticConcepts.Ramu</StartupObject>
+    <StartupObject>MyPractice.StaticConcepts.Raju</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

@@ -15,6 +15,7 @@ namespace MyPractice.StaticConcepts
             Console.WriteLine("I am Static Constructor");
         }
 
+       
         public static void Add()
         {
             c = a + b;
@@ -44,12 +45,76 @@ namespace MyPractice.StaticConcepts
 
     }
 
-    public static class Raju
+    public class Raju 
     {
+        public Raju(int a)
+        { 
+           this.b = a;
+            Raju.a = a;
+        }
 
+        public Raju(string a)
+        {
+
+        }
+
+        public Raju(string b,int a)
+        {
+
+        }
+
+        public Raju(int b, string a)
+        {
+
+        }
+
+        public Raju(long b, string a)
+        {
+            this.b = (int)b;
+            Raju.a = 50;
+        }
+
+        public Raju(bool b, string a)
+        {
+            this.b = 30;
+            Raju.a = 45;
+        }
+        public static int a = 10;
+        public int b=20;
+        public static string MyName { get; set; }
+        public  long MyPhone { get; set; }
         public static void Main()
         {
-            Ramu.Add();
+
+            Raju raju = new Raju(true, "NAME");
+            raju.add();
+
+
+            Raju raju2 = new Raju(10,"Ramesh");
+            raju2.add();
+
+            Raju raju3 = new Raju(8);
+            raju3.add();
+
+            //Raju raju = new Raju("RAmu"); // you should satisfy the Constructor of paramater
+
+            //Raju raju1 = new Raju(2099000099, "Raju");
+
+
+            //int c = a + raju.b;
+            //raju.add();
+            //Console.WriteLine(c);
+            //Ramu.Add();
+
+
+            Console.ReadLine();
+        }
+
+        public void add()
+        {
+          int c=  a + b;
+           Console.WriteLine(c);
+
         }
 
     }

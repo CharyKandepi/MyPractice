@@ -47,9 +47,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Akhila.cs" />
+    <Compile Include="Inheritence\Child.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StaticConcepts\Ramu.cs" />
+    <Compile Include="StaticConcepts%28Class variables methods Constructor %29\Ramu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

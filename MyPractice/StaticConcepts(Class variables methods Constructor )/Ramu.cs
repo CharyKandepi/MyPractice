@@ -47,6 +47,10 @@ namespace MyPractice.StaticConcepts
 
     public class Raju 
     {
+        static Raju()
+        {
+            Console.WriteLine("I will execute first ");
+        }
         public Raju(int a)
         { 
            this.b = a;

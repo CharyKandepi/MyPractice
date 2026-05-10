@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyPractice.AbstractClass;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -45,6 +46,10 @@ namespace MyPractice
             obj.Ramu(3567788, "XYZ");
 
             //Akhila.Ramu(2434634567, "ABC");
+
+            Soumya soumyaObj = new Soumya();
+            soumyaObj.Raju();
+
         }
 
 

@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MyPractice.StaticConcepts.Raju</StartupObject>
+    <StartupObject>MyPractice.AbstractClass.Soumya</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,8 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractClass\RajuKumar.cs" />
+    <Compile Include="AbstractClass\Soumya.cs" />
     <Compile Include="Akhila.cs" />
     <Compile Include="Inheritence\Child.cs" />
+    <Compile Include="Interface\Myinterface.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StaticConcepts%28Class variables methods Constructor %29\Ramu.cs" />

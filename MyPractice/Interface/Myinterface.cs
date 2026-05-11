@@ -9,10 +9,22 @@ namespace MyPractice.Interface
     internal interface Myinterface
     {
 
-        //public void interface Add()
-        //{ 
-         
-        //}
+          void Add();
+
+         string Add(int a);
+
+
+    }
+
+
+    internal interface Myinterface2
+    {
+
+        void Add();
+
+        string Add(int a);
+
+        void Add(int a, int b);
 
     }
 }

@@ -12,5 +12,13 @@ namespace MyPractice.AbstractClass
         {
             Console.WriteLine("I am Fine , I am Raju method from Soumya Class");
         }
+
+        public override void Ramesh()
+        {
+            Console.WriteLine("I am Remplemented Virtualmethod (Ramesh) method in Child  Class of abtract class");
+        }
+
+
+
     }
 }

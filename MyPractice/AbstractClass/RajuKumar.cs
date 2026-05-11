@@ -18,5 +18,10 @@ namespace MyPractice.AbstractClass
             Console.WriteLine("I am Ramu method in abstract Class");
         }
         public abstract void Raju(); // Method defination
+
+        public virtual void Ramesh()
+        {
+            Console.WriteLine("I am Virtualmethod (Ramesh) method in abstract Class");
+        }
     }
 }

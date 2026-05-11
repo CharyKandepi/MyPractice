@@ -41,14 +41,15 @@ namespace MyPractice
 
         public static void Main()
         {
-            Akhila obj = new Akhila();
-            obj.Ramu();
-            obj.Ramu(3567788, "XYZ");
+            //Akhila obj = new Akhila();
+            //obj.Ramu();
+            //obj.Ramu(3567788, "XYZ");
 
             //Akhila.Ramu(2434634567, "ABC");
 
             Soumya soumyaObj = new Soumya();
             soumyaObj.Raju();
+            soumyaObj.Ramesh();
 
         }
 

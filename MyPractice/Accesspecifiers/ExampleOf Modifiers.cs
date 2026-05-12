@@ -25,8 +25,14 @@ namespace MyPractice.Accesspecifiers
         {
 
         }
+        protected internal void Test5_protected_internal()
+        {
 
+        }
+       private protected  void Test6_private_protected()
+        {
 
+        }
         public static void Main()
         {
 
@@ -36,9 +42,14 @@ namespace MyPractice.Accesspecifiers
             exampleOf_Modifiers.Test2_Internal();
             exampleOf_Modifiers.Test3_private();
             exampleOf_Modifiers.Test4_protected();
+            exampleOf_Modifiers.Test5_protected_internal();
+            exampleOf_Modifiers.Test6_private_protected();
 
         }
 
 
     }
+
+
+
 }

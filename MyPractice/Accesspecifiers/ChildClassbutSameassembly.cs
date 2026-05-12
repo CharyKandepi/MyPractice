@@ -16,7 +16,8 @@ namespace MyPractice.Accesspecifiers
             childClassbutSameassembly.Test1_Public();
             childClassbutSameassembly.Test2_Internal();
             childClassbutSameassembly.Test4_protected();
-
+            childClassbutSameassembly.Test5_protected_internal();
+            childClassbutSameassembly.Test6_private_protected();
 
             //ExampleOf_Modifiers exampleOf_Modifiers = new ExampleOf_Modifiers();
 

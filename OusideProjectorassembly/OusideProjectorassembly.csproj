@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="MyPractice">
+      <HintPath>..\MyPractice\bin\Debug\MyPractice.exe</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

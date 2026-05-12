@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MyPractice.Akhila</StartupObject>
+    <StartupObject>MyPractice.Accesspecifiers.ExampleOf_Modifiers</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,9 @@
   <ItemGroup>
     <Compile Include="AbstractClass\RajuKumar.cs" />
     <Compile Include="AbstractClass\Soumya.cs" />
+    <Compile Include="Accesspecifiers\ChildClassbutSameassembly.cs" />
+    <Compile Include="Accesspecifiers\ExampleOf Modifiers.cs" />
+    <Compile Include="Accesspecifiers\OusideClassbutSameAssembly.cs" />
     <Compile Include="Akhila.cs" />
     <Compile Include="Inheritence\Child.cs" />
     <Compile Include="Interface\MyClass.cs" />

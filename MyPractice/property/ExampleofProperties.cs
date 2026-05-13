@@ -11,6 +11,10 @@ namespace MyPractice.property
         string _CollageName ="MGRCollage";
 
 
+        int _MyProperty;
+        public int MyProperty { get; set; }
+
+
         public string CollageName
         {
             get 
@@ -51,9 +55,11 @@ namespace MyPractice.property
         {
             ExampleofProperties exampleofProperties = new ExampleofProperties();
 
-           // exampleofProperties.CollageName("NTRCollage");
+            // exampleofProperties.CollageName("NTRCollage");
 
 
+            exampleofProperties.MyProperty = 101;
+            Console.WriteLine(exampleofProperties.MyProperty);
 
             Console.WriteLine(exampleofProperties._CollageName);
 

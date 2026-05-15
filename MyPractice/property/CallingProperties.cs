@@ -10,9 +10,11 @@ namespace MyPractice.property
     {
 
         public static void Main()
-        { 
-           
-           ExampleofProperties exampleofProperties = new ExampleofProperties();
+        {
+
+            #region
+
+            ExampleofProperties exampleofProperties = new ExampleofProperties();
 
             //exampleofProperties.CollageName = "ANRCollage";      //Set or Write
 
@@ -23,10 +25,27 @@ namespace MyPractice.property
             //exampleofProperties.CollageName("ANRCollage",1458);
 
 
-           // exampleofProperties.CollageName = "ANRCollage";
+            // exampleofProperties.CollageName = "ANRCollage";
 
-            var data=exampleofProperties.CollageName;
-          Console.WriteLine(data);
+            //  var data=exampleofProperties.CollageName;
+            //Console.WriteLine(data);
+            #endregion
+
+
+            ProperiesExample properiesExample = new ProperiesExample(101,"Ramu","UK");
+
+            Console.WriteLine(properiesExample.StdId);//101
+            Console.WriteLine(properiesExample.StdName); //Ramu
+            Console.WriteLine(properiesExample.StdPhone);//0
+            Console.WriteLine(properiesExample.Country); //UK
+            Console.WriteLine(properiesExample.StdGender);//Other
+
+
+            Console.ReadLine();
+              
+
+
+
 
             Console.ReadLine();
 

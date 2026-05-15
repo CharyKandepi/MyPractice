@@ -59,6 +59,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="property\CallingProperties.cs" />
     <Compile Include="property\ExampleofProperties.cs" />
+    <Compile Include="property\ProperiesExample.cs" />
     <Compile Include="StaticConcepts%28Class variables methods Constructor %29\Ramu.cs" />
   </ItemGroup>
   <ItemGroup>

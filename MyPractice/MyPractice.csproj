@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MyPractice.property.CallingProperties</StartupObject>
+    <StartupObject>MyPractice.Arrays.ArraysExample</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -52,6 +52,7 @@
     <Compile Include="Accesspecifiers\ExampleOf Modifiers.cs" />
     <Compile Include="Accesspecifiers\OusideClassbutSameAssembly.cs" />
     <Compile Include="Akhila.cs" />
+    <Compile Include="Arrays\ArraysExample.cs" />
     <Compile Include="Inheritence\Child.cs" />
     <Compile Include="Interface\MyClass.cs" />
     <Compile Include="Interface\Myinterface.cs" />

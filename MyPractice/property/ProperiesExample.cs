@@ -74,7 +74,7 @@ namespace MyPractice.property
 
         public long StdPhone { get { return _StdPhone; } set { _StdPhone = value; } }
 
-        public string Country { get {return _Country } set { _Country = value; } }
+        public string Country { get { return _Country; } set { _Country = value; } }
 
 
 
